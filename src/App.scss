@@ -1,0 +1,258 @@
+.App {
+  text-align: center;
+}
+.App h1{
+  color: #fff;
+}
+body{
+
+background: #24C6DC;
+
+/* fallback for old browsers */
+
+background: -webkit-linear-gradient(to left, #24C6DC , #514A9D);
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #24C6DC , #514A9D);
+
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+input[type="email"] {
+
+ width: 480px;
+  margin-top: 20px;
+  padding: 10px;
+
+ font-size: 30px;
+
+ border: none;
+
+ border-bottom: solid 2px #c9c9c9;
+
+ transition: border 0.3s;
+
+}
+
+
+
+input[type="password"] {
+
+ width: 480px;
+
+ margin-top: 20px;
+
+ padding: 10px;
+
+ font-size: 30px;
+
+
+ border: none;
+
+ border-bottom: solid 2px #c9c9c9;
+
+ transition: border 0.3s;
+
+}
+
+
+input[type="email"]:focus,
+input[type="password"].focus
+{
+
+ border-bottom: solid 2px #969696;
+
+}
+
+
+
+button
+{
+
+font-size: 30px;
+
+background-color: #00B16A;
+
+color: #fff;
+
+padding: 10px 30px;
+
+margin-top: 20px;
+
+ margin-right: 10px;
+
+
+}
+
+
+
+p{
+
+color: orange;
+
+text-decoration: underline;
+
+}
+
+
+
+.hide{
+
+ display: none;
+
+}
+
+ul {
+    overflow: hidden;
+    padding: 15px;
+}
+
+ul li {
+    float: left;
+    margin: 15px;
+    position: relative;
+}
+ul, li {
+    list-style: outside none none;
+}
+
+ul li div {
+    background: #ffc none repeat scroll 0 0;
+  //  border-style: solid;
+  //  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+   color: #fff;
+  //  display: block;
+    height: 300px;
+  //  padding: 10px;
+  //  text-decoration: none;
+    //transition: -moz-transform 0.15s linear 0s;
+    width: 250px;
+}
+
+
+#noteTitle {
+    font-size: 100%;
+    font-weight: bold;
+    height: 20px;
+    width: 70%;
+}
+#noteContent {
+    font-size: 100%;
+    height: 200px;
+    width: 95%;
+}
+ul li textarea {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-style: none;
+    font-family: "Chewy",arial,sans-serif;
+    padding: 3px;
+    resize: none;
+}
+
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  box-shadow: 0 15px 8px #000;
+  transform: rotate(-5deg);
+}
+.effect2:after
+{
+  transform: rotate(5deg);
+  right: 10px;
+  left: auto;
+}
+
+.spanOuter{
+  background: rgba(80, 73, 156, 0.48) none repeat scroll 0 0;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+
+}
+.del-block{
+  display: block;
+}
+.edit-inlineblock{
+  display: inline-block;
+  float: left;
+}
+#spanInner {
+    background: #514a9d none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    margin-top: 7px;
+    width: 15px;
+}
+
+.effect7
+{
+    position:relative;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    box-shadow:0 0 20px #fff;
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius:100px / 10px;
+}
+.effect7:after
+{
+    right:10px;
+    left:auto;
+    transform:skew(8deg) rotate(3deg);
+}
+
+
+.innerBtn h1{
+
+
+  margin-top: 50px;
+
+}
+.addBtn {
+  display: block;
+	width:50px;
+	height:50px;
+	background: rgba(80, 73, 156, 0.48);
+	margin:40px auto;
+}
+
+.online{
+  color: #ffffff;
+}
+
+.username{
+  color: #99ff33;
+}
+
+.like{
+  display: inline;
+  color: lightblue;
+  font-size: 12px;
+}
+
+.likeIt{
+  color: red;
+  font-weight: bold;
+}
